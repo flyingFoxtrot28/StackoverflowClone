@@ -27,7 +27,7 @@ app.use('/otp', otpRoutes)
 
 
 app.get('/', (req, res) => {
-  res.send("This is a stack overflow clone's API by shaurya")
+  res.send("This is a stack overflow clone's API by Deepanshu Gupta")
 })
 
 app.listen(PORT, () => {
