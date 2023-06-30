@@ -9,7 +9,7 @@
     "server": "node index.js",
     "build": "npm i"
   },
-  "author": "shaurya",
+  "author": "Deepanshu Gupta",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
