@@ -20,7 +20,7 @@ const Chatbot = ({ setIsOpen, isVerified, setIsVerified }) => {
     setChatLog(chatLogNew)
     const messages = chatLogNew.map(message => message.message).join('\n')
     try {
-      const response = await fetch('https://stack-overflow-clone-2f5y.onrender.com//chatbot/', {
+      const response = await fetch('https://stack-overflow-clone-2f5y.onrender.com/chatbot/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -38,7 +38,7 @@ const Chatbot = ({ setIsOpen, isVerified, setIsVerified }) => {
 
   const handleEmailSubmit = async (e) => {
     e.preventDefault()
-    const response = await fetch('https://stack-overflow-clone-2f5y.onrender.com//otp/sendOTP', {
+    const response = await fetch('https://stack-overflow-clone-2f5y.onrender.com/otp/sendOTP', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -61,7 +61,7 @@ const Chatbot = ({ setIsOpen, isVerified, setIsVerified }) => {
 
   const handleOTPSubmit = async (e) => {
     e.preventDefault()
-    const response = await fetch('https://stack-overflow-clone-2f5y.onrender.com//otp/verifyOTP', {
+    const response = await fetch('https://stack-overflow-clone-2f5y.onrender.com/otp/verifyOTP', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
