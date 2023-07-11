@@ -12,5 +12,7 @@ To launch the backend part of StackoverflowClone:-
 
 1) Click on new terminal.
 2) In terminal go to the server side using the command 'cd server'.
-3) 
+3) Create a .env file in the server folder and pass the variables and port by seeing the .env example file in ther server.
 4) And then run 'npm start'. Then frontend of the project will get launched in web browser.
+
+Deployed link :- https://main--effervescent-flan-8fe14a.netlify.app/
